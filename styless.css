@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4fc;
+    color: #444;
+}
+
+header {
+    background-color: #6a5acd;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.job-card {
+    background-color: #fff;
+    border: 1px solid #b0c4de;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.job-card h2 {
+    margin-top: 0;
+    color: #6a5acd;
+}
+
+.job-card img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.job-card p {
+    margin: 10px 0 0;
+}
+
+footer {
+    background-color: #6a5acd;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
